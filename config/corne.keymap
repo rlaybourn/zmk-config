@@ -32,17 +32,17 @@
         compatible = "zmk,combos";
         combo_esc {
             timeout-ms = <50>;
-            key-positions = <3 4>;
+            key-positions = <8 9>;
             bindings = <&kp ESC>;
         };
         combo_tab {
             timeout-ms = <50>;
-            key-positions = <7 8>;
+            key-positions = <3 4>;
             bindings = <&kp TAB>;
         };
         combo_caps {
             timeout-ms = <50>;
-            key-positions = <8 9>;
+            key-positions = <7 8>;
             bindings = <&kp CAPS>;
         };
     };
@@ -60,7 +60,7 @@
    &kp TAB   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
    &kp LCTRL &hm LGUI A &hm LALT S &hm LCTRL D &hm LSHIFT F &kp G   &kp H &hm RSHIFT J  &hm RCTRL K     &hm RALT L   &hm RGUI SEMI &kp SQT
    &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp ESC
-                  &kp LGUI &lt LOWER SPACE &lt RAISE SPACE   &lt RAISE RET &lt LOWER RET &kp RALT
+                  &kp LGUI &lt LOWER SPACE &lt RAISE SPACE   &lt RAISE RET &lt LOWER BKSP &kp DEL
                         >;
                 };
                 lower_layer {
@@ -70,9 +70,9 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7   &kp N8 &kp N9    &kp N0 &kp BSPC
-   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans &trans
-   &kp LSHFT  &trans       &trans       &trans       &trans       &trans         &trans   &trans   &trans &trans    &trans &trans
+   &kp TAB    &kp ASTRK    &kp N7       &kp N8       &kp N9       &kp N5         &kp N6   &kp N7   &kp PG_DN   &kp PG_UP    &kp END     &kp BSPC
+   &bt BT_CLR &kp N0       &kp N4       &kp N5       &kp N6       &bt BT_SEL 4   &kp HOME &kp LEFT &kp DOWN    &kp UP       &kp &RIGHT  &trans
+   &kp LSHFT  &kp DOT      &kp N1       &kp N2       &kp N3       &trans         &trans   &trans   &trans      &trans       &trans      &trans
                                     &kp LGUI     &trans       &kp SPACE      &kp RET  &trans   &kp RALT
                         >;
                 };
