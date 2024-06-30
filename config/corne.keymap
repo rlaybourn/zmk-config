@@ -32,17 +32,17 @@
         compatible = "zmk,combos";
         combo_esc {
             timeout-ms = <50>;
-            key-positions = <3 4>;
+            key-positions = <8 9>;
             bindings = <&kp ESC>;
         };
         combo_tab {
             timeout-ms = <50>;
-            key-positions = <8 9>;
+            key-positions = <3 4>;
             bindings = <&kp TAB>;
         };
         combo_caps {
             timeout-ms = <50>;
-            key-positions = <7 8>;
+            key-positions = <2 3>;
             bindings = <&kp CAPS>;
         };
     };
@@ -86,7 +86,7 @@
                         bindings = <
    &kp  TAB  &kp SQT     &kp DQT  &kp DLLR     &kp SLASH   &kp PLUS       &kp CARET &kp LBKT  &kp RBKT  &kp GRAVE &kp RPAR  &kp PIPE
    &kp LCTRL &kp DOLLAR  &kp AT   &kp HASH       &kp ASTRK   &kp MINUS      &kp UNDER &kp LPAR  &kp RPAR  &kp AMPS  &kp BSLH  &kp ASTRK
-   &kp LSHFT &kp TILDE   &kp EXCL &kp LS(N3)       &kp PRCNT   &kp EQUAL      &kp NUBS  &kp LBRC  &kp RBRC  &kp RBRC  &kp UNDER &kp PLUS
+   &kp LSHFT &kp LS(NUHS)   &kp EXCL &kp LS(N3)       &kp PRCNT   &kp EQUAL      &kp NUBS  &kp LBRC  &kp RBRC  &kp RBRC  &kp UNDER &kp PLUS
                              &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
                         >;
                 };
