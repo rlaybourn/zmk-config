@@ -85,7 +85,7 @@
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &kp  TAB  &kp SQT     &kp DQT  &kp DLLR     &kp SLASH   &kp PLUS       &kp CARET &kp LBKT  &kp RBKT  &kp GRAVE &kp RPAR  &kp PIPE
-   &kp LCTRL &kp DOLLR   &kp AT   &kp HASH     &kp ASTRK   &kp MINUS      &kp UNDER &kp LPAR  &kp RPAR  &kp AMPS  &kp BSLH  &kp ASTRK
+   &kp LCTRL &kp DOLLR   &kp AT   &trans     &kp ASTRK   &kp MINUS      &kp UNDER &kp LPAR  &kp RPAR  &kp AMPS  &kp BSLH  &kp ASTRK
    &kp LSHFT &kp TILDE   &kp EXCL &kp N3       &kp PRCNT   &kp EQUAL      &kp NUBS  &kp LBRC  &kp RBRC  &kp RBRC  &kp UNDER &kp PLUS
                              &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
                         >;
