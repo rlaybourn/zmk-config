@@ -24,7 +24,7 @@
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <150>;
+            tapping-term-ms = <200>;
             quick-tap-ms = <0>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
@@ -73,8 +73,8 @@
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &kp TAB    &kp ESC    &kp N7       &kp N8       &kp N9       &kp PLUS      &kp N6   &kp CAPS   &kp PG_DN   &kp PG_UP    &kp END     &kp BSPC
-   &bt BT_CLR &kp N0       &kp N4       &kp N5       &kp N6       &kp MINUS     &kp HOME &kp LEFT &kp DOWN    &kp UP       &kp RIGHT  &trans
-   &kp LSHFT  &kp DOT      &kp N1       &kp N2       &kp N3       &kp EQUAL     &trans   &trans    &trans      &trans       &trans      &trans
+   &bt BT_CLR &kp N0     &kp N4       &kp N5       &kp N6       &kp MINUS     &kp HOME &kp LEFT &kp DOWN    &kp UP       &kp RIGHT  &trans
+   &kp LSHFT  &kp DOT    &kp N1       &kp N2       &kp N3       &kp EQUAL     &trans   &trans    &trans      &trans       &trans      &trans
                                     &kp LGUI     &trans       &kp SPACE      &kp RET  &trans   &kp RALT
                         >;
                 };
@@ -86,8 +86,8 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &kp  TAB  &kp SQT        &kp AT  &kp DLLR     &kp SLASH   &kp PLUS       &kp CARET &kp LBKT  &kp RBKT  &kp GRAVE &kp PIPE  &kp PIPE
-   &kp LCTRL &kp NUHS       &kp DQT   &kp HASH     &kp ASTRK   &kp MINUS      &kp UNDER &kp LPAR  &kp RPAR  &kp AMPS  &kp BSLH  &kp ASTRK
+   &kp  TAB  &kp SQT        &kp AT  &kp DLLR     &kp SLASH   &kp PLUS       &kp CARET &kp LBKT  &kp RBKT  &kp GRAVE &kp LS(NUBS)  &kp PIPE
+   &kp LCTRL &kp DLLR       &kp DQT   &kp NHUS     &kp ASTRK   &kp MINUS      &kp UNDER &kp LPAR  &kp RPAR  &kp AMPS  &kp BSLH  &kp ASTRK
    &kp LSHFT &kp LS(NUHS)   &kp EXCL &kp LS(N3)   &kp PRCNT   &kp EQUAL      &kp NUBS  &kp LBRC  &kp RBRC  &kp RBRC  &kp UNDER &kp PLUS
                              &kp LGUI &trans   &kp SPACE   &kp RET   &trans    &kp RALT
                         >;
