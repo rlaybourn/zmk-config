@@ -40,12 +40,12 @@
         combo_esc { 
             timeout-ms = <50>;
             key-positions = <3 4>;
-            bindings = <&kp CAPS>;
+            bindings = <&kp ESC>;
         };
         combo_caps { 
             timeout-ms = <50>;
             key-positions = <8 9>;
-            bindings = <&kp ESC>;
+            bindings = <&kp CAPS>;
         };
     };
 
